@@ -1,0 +1,27 @@
+{
+  "name": "mongoose-textStore",
+  "version": "1.0.0",
+  "description": "This library provides a class to store text-files or strings larger than 16MB into mongoDB via mongoose",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r0bertcode/mongoose-textStore.git"
+  },
+  "keywords": [
+    "mongoose",
+    "file",
+    "storage"
+  ],
+  "author": "Robert Lopez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/r0bertcode/mongoose-textStore/issues"
+  },
+  "homepage": "https://github.com/r0bertcode/mongoose-textStore#readme",
+  "dependencies": {
+    "mongoose": "^5.13.3"
+  }
+}
