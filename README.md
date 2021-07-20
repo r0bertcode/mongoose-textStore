@@ -6,13 +6,13 @@ The class operates by taking the string or reading the text from the file into a
 
 ### Class TextStore:
 
-- <b>addFile</b> | Store data from file into chunks in mongoDB
+- <b>[addFile](#addfilefile-name--options)</b> | Store data from file into chunks in mongoDB
 
-- <b>addString</b> | Store data from a string into chunks in mongoDB
+- <b>[addString](#addstringstring-name--split)</b> | Store data from a string into chunks in mongoDB
 
-- <b>getData</b> | Get data stored in a 'file' or group of chunks from mongoDB
+- <b>[getData](#getdataname)</b> | Get data stored in a 'file' or group of chunks from mongoDB
 
-- <b>deleteFile</b> | Delete data stored in a 'file' or group of chunks from mongoDB
+- <b>[deleteFile](#deletefilename)</b> | Delete data stored in a 'file' or group of chunks from mongoDB
 
 ### addFile(file, name, [ options])
 
