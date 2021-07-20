@@ -1,4 +1,4 @@
-# mongoose-textStore
+# mongoose-text-store
 
 This library provides a class to store text-files or strings larger than 16MB into mongoDB via mongoose, was intended to store large JSON files or large encrypted strings without the need of gridFS.
 
@@ -29,7 +29,7 @@ Adds a files data to mongoDB and returns the File doc, containing the objectIds 
 
 <b>Example usage:</b>
 ```
-const textStore = require('mongoose-textStore);
+const textStore = require('mongoose-text-store);
 
 ( async () => {
   const fileDoc = await textStore.addFile('./largeFile.json', 'hexs');
@@ -64,7 +64,7 @@ Adds a strings data to the mongoDB and returns the File doc, containing the obje
 
 <b>Example usage:</b>
 ```
-const textStore = require('mongoose-textStore);
+const textStore = require('mongoose-text-store);
 const largeStr = '.....';
 // largeStr.length === 1600000
 

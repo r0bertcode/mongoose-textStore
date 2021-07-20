@@ -1,5 +1,5 @@
 {
-  "name": "mongoose-textStore",
+  "name": "mongoose-text-store",
   "version": "1.0.0",
   "description": "This library provides a class to store text-files or strings larger than 16MB into mongoDB via mongoose",
   "main": "lib/index.js",
